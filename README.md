@@ -8,7 +8,7 @@ Este projeto foi realizado com o propósito de estudo, para praticar e aprimorar
 
 ## Rodar
 ```bash
-   git clone https://github.com/mkfzdev/jogo-de-adivinhacao.git
+$ git clone https://github.com/mkfzdev/jogo-de-adivinhacao.git
 ```
 ```
-  python Adivinhe.py
+$ python Adivinhe.py
