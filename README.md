@@ -1,6 +1,6 @@
 # Jogo de Adivinhação
 
-Jogo de adivinhação! Este é um jogo simples onde você precisa adivinhar o número gerado pelo programa. O programa fornecerá algumas dicas para ajudá-lo.
+Este é um jogo simples onde você precisa adivinhar o número gerado pelo programa. O programa fornecerá algumas dicas para ajudá-lo.
 
 ## Propósito
 
