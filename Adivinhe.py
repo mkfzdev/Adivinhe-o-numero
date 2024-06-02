@@ -9,11 +9,12 @@ input('Bem vindo ao jogo de adivinhação, este jogo é simples.\n'
 numero = random.randint(1, 11)
 
 print('O número foi gerado, vamos começar te dar as dicas:\n')
+
 if numero % 2 == 0:
     print('1. O número é par')
+
     input_message4 = 'Deseja tentar adivinhar? (sim/nao): '
     resposta4 = input(input_message4)
-
     if resposta4 == 'sim':
         input_message4 = ('Qual número você acredita que é?: ')
         numero_resposta2 = input(input_message4)
@@ -26,9 +27,9 @@ if numero % 2 == 0:
             sys.exit()
 else:
     print('1. O número é impar')
+
     input_message5 = 'Deseja tentar adivinhar? (sim/nao): '
     resposta5 = input(input_message5)
-
     if resposta5 == 'sim':
         input_message5 = ('Qual número você acredita que é?: ')
         numero_resposta5 = input(input_message5)
@@ -47,9 +48,9 @@ def verificar(numero):
     number = numero - 1
     number2 = numero + 2
     print('2. O número está entre', number, 'e', number2)
+
     input_message6 = 'Deseja tentar adivinhar? (sim/nao): '
     resposta6 = input(input_message6)
-
     if resposta6 == 'sim':
         input_message6 = ('Qual número você acredita que é?: ')
         numero_resposta6 = input(input_message6)
@@ -74,9 +75,9 @@ def verificar(numero):
 
 numero_verificar = verificar(numero)
 print('3. O mais próximo é: {}'.format(numero_verificar))
+
 input_message6 = 'Agora vamos tentar adivinhar? (sim/nao): '
 resposta = input(input_message6)
-
 if resposta == 'sim':
     input_message2 = ('Qual número você acredita que é?: ')
     numero_resposta = input(input_message2)
